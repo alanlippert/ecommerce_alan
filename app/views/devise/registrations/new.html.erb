@@ -12,7 +12,7 @@
     <%= f.input :password,
                 required: true,
                 label: false,
-                placeholder: ("Senha com no mínimo #{@minimum_password_length} caracteres",                
+                placeholder: "Senha com no mínimo #{@minimum_password_length} caracteres",                
                 input_html: { autocomplete: "new-password" } %>
     <%= f.input :password_confirmation,
                 required: true,
